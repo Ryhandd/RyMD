@@ -1,0 +1,24 @@
+{
+  "name": "rymd",
+  "version": "1.0.0",
+  "description": "Pindai direktori secara rekursif dan hasilkan satu file Markdown berisi struktur pohon + isi kode lengkap.",
+  "main": "index.js",
+  "bin": {
+    "rymd": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "cli",
+    "markdown",
+    "documentation",
+    "directory-tree",
+    "zero-dependency"
+  ],
+  "license": "MIT"
+}
